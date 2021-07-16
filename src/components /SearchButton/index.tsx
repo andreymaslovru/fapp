@@ -5,6 +5,6 @@ interface SearchButtonProps {}
 
 export const SearchButton: React.FC<SearchButtonProps> = ({}) => (
   <View>
-    <Text>2</Text>
+    <Text>#</Text>
   </View>
 );

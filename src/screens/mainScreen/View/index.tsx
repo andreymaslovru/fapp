@@ -9,9 +9,8 @@ interface MainScreenViewProps {}
 export const MainScreenView: React.FC<MainScreenViewProps> = ({}) => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Hello app</Text>
-      <Text> TEXT </Text>
       <SearchInput />
+      <Text style={styles.title}>Your city</Text>
     </SafeAreaView>
   );
 };
